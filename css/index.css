@@ -21,10 +21,13 @@
     
 }
 .card-work img{
-    /* width: 100%; */
-    max-height: 200px;
+    width: 100%;
+    max-height: 180px;
 }
 /* Globales */
+body{
+    background: linear-gradient(90deg,#0170e7, #27709b 25%, #284e61);
+}
 /* Header */
 #header{
     background: linear-gradient(90deg,#0170e7, #27709b 25%, #284e61);
@@ -57,7 +60,7 @@
     height: 100%;
 }
 
-#main .carousel-inner img{
+#main .carousel-item img{
     width: 100%;
 }
 #carousel{
@@ -85,6 +88,19 @@
     margin: 0 10px;
 }
 /* Footer */
+/* Modal Product */
+#modalProduct1 img,
+#modalProduct2 img{
+    width: 100%;
+}
+/* Modal Product */
+
+/* About */
+/* #about img{
+    width: 100%;
+} */
+/* About */
+
 
 #services .card-img{
     height: 100%;
